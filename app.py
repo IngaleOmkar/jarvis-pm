@@ -143,4 +143,4 @@ def generatepassword():
     
 if __name__ == '__main__':
     library.api.initializeDatabaseConnection()
-    app.run(debug=True)
+    app.run()
